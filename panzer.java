@@ -14,7 +14,7 @@ public class panzer {
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://www.google.com");
 		WebElement ele=driver.findElement(By.id("lst-ib"));
-		ele.sendKeys("webdriverio");
+		ele.sendKeys("webdriveriobh");
 		ele.sendKeys(Keys.RETURN);
 		driver.findElement(By.xpath("//*[@id='rso']/div[1]/div/div/div/div/h3/a")).click();
 		String URL=driver.getCurrentUrl();
